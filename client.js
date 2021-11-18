@@ -1,13 +1,13 @@
 // Import three.js core
-import * as THREE from "build/three.module.js";
+import * as THREE from "../build/three.module.js";
 
 // Import add-ons for glTF models, orbit controls, and font loader
 import {
   OrbitControls
-} from "src/OrbitControls.js";
+} from "../src/OrbitControls.js";
 import {
   GLTFLoader
-} from "src/GLTFLoader.js";
+} from "../src/GLTFLoader.js";
 
 let container, scene, camera, renderer, mesh, mesh2, mixer, controls, clock;
 
